@@ -9,4 +9,4 @@ and let everyone discover what their friends want :)
 	
 	Cassandra	: database
 	
-Check our wiki for more information : https://github.com/g2minhle/GiftMe
+Check our wiki for more information : https://github.com/g2minhle/GiftMe/wiki
