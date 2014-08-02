@@ -1,8 +1,8 @@
-A server for people to post their wishlist :)
-
-Install 
-	curl -sL https://deb.nodesource.com/setup | bash -
-	sudo apt-get install nodejs
-	./start.sh
+A scalable website for people to post their wishlist 
+and let everyone discover what their friends want :) 
+	Ngnix		: load balancer
+	Node JS		: back end 
+	Angular JS 	: front ent
+	Cassandra	: database
 	
-More reference https://github.com/angular/angular-seed
+Check our wiki for more information : https://github.com/g2minhle/GiftMe
