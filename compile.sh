@@ -1,11 +1,11 @@
 #!/bin/sh
 
 PATH_TO_NGINX_SRC=./servers/nginx
-PATH_TO_CASSANDRA_BIN=./servers/cassandra
 
-########### load cassandra db conf ###########
-cp -ar ./cassandra_conf/* $PATH_TO_CASSANDRA_BIN/conf/ 
-chmod 700 $PATH_TO_CASSANDRA_BIN/bin/cassandra
+########### create folder for mongodb ###########
+mkdir ./data/
+mkdir ./log/
+echo "" > ./log/mongodb.log
 
 ########### load web server files ###########
 # install the web sever 
